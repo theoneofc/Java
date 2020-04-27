@@ -1,0 +1,1 @@
+1. 好像**.**和**.**()的区别就是前者一般是返回一个值，后者是调用一个方法(解释型语言，编译型语言好像都只有（）的方法), 如array.length, System.out.println(), gensim.models.Word2vec()
