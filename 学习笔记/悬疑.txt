@@ -1,1 +1,10 @@
 1. 好像**.**和**.**()的区别就是前者一般是返回一个值，后者是调用一个方法(解释型语言，编译型语言好像都只有（）的方法), 如array.length, System.out.println(), gensim.models.Word2vec()
+2 final = const的原因是final表示最后（最终状态），也就是不再改变的意思吗？有趣
+
+3. char[] cs = "Hello".toCharArray(); // String -> char[]
+String s = new String(cs); // char[] -> String
+字符串new传参，内部->构造方法
+
+byte[] b = ...
+String s1 = new String(b, "GBK"); // 按GBK转换
+String s2 = new String(b, StandardCharsets.UTF_8); // 按UTF-8转换

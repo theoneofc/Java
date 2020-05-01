@@ -1,1 +1,2 @@
 1. util是utiliy的缩写，是一个多功能、基于工具的包
+2 toString、 equalsIgnoreCase 这种是就是中间换单词了首字母大写的良好命名规范，跟to_string equal_ignore_case 是一样的方式
